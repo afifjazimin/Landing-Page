@@ -42,3 +42,58 @@ body {
 .title-header, .button2 {
     animation: slideInLeft 1s ease forwards;
 }
+
+.section-bg {
+  min-height: 900px;
+  background-image: url('Assets/growth.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px auto; /* 500px lebar, auto tinggi */
+  background-position: left bottom;
+}
+
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 15px 0 rgba(0, 0, 0, 0.8);
+  transform: translateY(-10px);
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 20px;
+  }
+
+  .key-title h4 {
+    font-size: 12px;
+  }
+
+  .img{
+    width: 50px;
+  }
+
+  .section-bg{
+    width: 50px;
+  }
+
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .hero-title {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 993px) {
+  .hero-title {
+    font-size: 55px;
+  }
+
+  .key-title h4 {
+    font-size: 35px;
+  }
+}
+
+
