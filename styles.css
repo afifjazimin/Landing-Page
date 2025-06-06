@@ -45,7 +45,7 @@ body {
 
 .section-bg {
   min-height: 900px;
-  background-image: url('Assets/growth.png');
+  background-image: url('growth.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 500px auto; /* 500px lebar, auto tinggi */
