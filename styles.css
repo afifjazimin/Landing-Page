@@ -54,7 +54,12 @@ body {
 }
 
 .card {
-  transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1); /* latar belakang semi-transparent */
+    backdrop-filter: blur(10px);         /* blur kandungan di belakang */
+    -webkit-backdrop-filter: blur(10px); /* sokongan untuk Safari */
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* sempadan lembut */
 }
 
 .card:hover {
